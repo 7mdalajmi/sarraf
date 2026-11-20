@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>صرّاف · الدعم · Support</title>
+<meta name="description" content="الدعم والأسئلة الشائعة لتطبيق صرّاف، محوّل العملات. Support and FAQ for Sarraf, the currency converter.">
+<style>
+:root{--bg:#f6f2ea;--ink:#1e1a15;--soft:#6b645a;--line:#e4dccd;--gold:#8a6a32;--card:#fffdf8}
+@media (prefers-color-scheme:dark){:root{--bg:#1b1a18;--ink:#f2ece1;--soft:#a39d92;--line:#2f2d29;--gold:#d6b676;--card:#23221f}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.75 system-ui,-apple-system,"SF Arabic","Geeza Pro","Noto Naskh Arabic",sans-serif}
+a{color:var(--gold)}
+section[lang=en]{direction:ltr;text-align:left;font-family:system-ui,-apple-system,"Helvetica Neue",sans-serif}
+footer{margin-top:56px;color:var(--soft);font-size:14px}
+main{max-width:720px;margin:0 auto;padding:40px 20px 64px}
+header{display:flex;justify-content:space-between;align-items:baseline;gap:16px;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:28px}
+.mark{font-size:30px;font-weight:700;color:var(--ink);text-decoration:none}
+nav a{color:var(--gold);text-decoration:none;margin-inline-start:14px;font-size:15px}
+h1{font-size:26px;margin:0 0 6px}
+h2{font-size:19px;margin:30px 0 6px;color:var(--gold)}
+.muted{color:var(--soft);font-size:15px}
+ul{padding-inline-start:22px}
+.contact{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:18px 0 8px}
+.contact a{font-weight:600}
+details{border-bottom:1px solid var(--line);padding:12px 0}
+summary{cursor:pointer;font-weight:600}
+details p{margin:8px 0 0}
+section[lang=en]{margin-top:56px;padding-top:28px;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<main>
+<header>
+<a class="mark" href="./">صرّاف</a>
+<nav><a href="privacy.html">الخصوصية</a><a href="#en">English</a></nav>
+</header>
+
+<section lang="ar">
+<h1>الدعم</h1>
+<p>صرّاف محوّل عملات للآيفون والآيباد وساعة Apple Watch والماك.</p>
+<div class="contact">
+<p>لأي مشكلة أو اقتراح: <a href="https://github.com/7mdalajmi/sarraf/issues/new">افتح طلبًا على GitHub</a></p>
+<p class="muted">اذكر جهازك وإصداره، والعملات أو الدولة المقصودة، وأرفق صورة إن أمكن.</p>
+</div>
+
+<h2>أسئلة شائعة</h2>
+<details><summary>كم مرة تتحدّث الأسعار؟</summary>
+<p>مرة في اليوم. وبدون اتصال يكمل التطبيق على آخر أسعار محفوظة ويكتب ذلك تحت اسمه، مثل «أسعار أمس · بدون اتصال». الأسعار من ExchangeRate-API، وهي للاطلاع وليست أسعار بيع وشراء.</p></details>
+<details><summary>كيف يعرف التطبيق أني مسافر؟</summary>
+<p>من المنطقة الزمنية في جهازك، بدون إذن الموقع. إذا كانت خارج بلدك تطلع الدولة التي أنت فيها فوق وبلدك تحتها. تغيّر بلدك من الإعدادات ثم «الدولة الأساسية».</p></details>
+<details><summary>زر «صوّر السعر» لا يظهر أو لا يعمل</summary>
+<p>يحتاج آيفون أو آيباد بكاميرا تقرأ النصوص، ويطلب إذن الكاميرا أول مرة. إذا رفضت الإذن تقدر تسمح له من الإعدادات. على الماك لا يظهر الزر.</p></details>
+<details><summary>ما سطر استرداد الضريبة؟</summary>
+<p>وقت السفر في فرنسا والإمارات والسعودية واليابان وتايلند وتركيا يطلع تحت المبلغ تقدير لما يرجع لك من الضريبة، وكم باقي لتصل الحد الأدنى. التقدير للسلع المؤهلة، والمبلغ النهائي حسب فاتورة المحل والجمارك.</p></details>
+<details><summary>كيف أغيّر اللغة أو المظهر؟</summary>
+<p>من الإعدادات: العربية أو الإنجليزية، ونوار الداكن أو عاجي الفاتح. الودجت والساعة تتبعان اختيارك.</p></details>
+<details><summary>الودجت وتطبيق الساعة</summary>
+<p>اضغط مطولًا على الشاشة الرئيسية ثم «تعديل» ثم «إضافة ودجت» واختر صرّاف: «حاسبة صرّاف» (متوسطة أو كبيرة) فيها لوحة أرقام تعمل داخل الودجت نفسها، وفي شاشة القفل «مبلغ الحاسبة». وتطبيق الساعة فيه لوحة أرقام وعملاتك نفسها.</p></details>
+
+<p class="muted">الخصوصية: التطبيق لا يجمع أي بيانات. <a href="privacy.html">سياسة الخصوصية</a></p>
+</section>
+
+<section lang="en" id="en">
+<h1>Support</h1>
+<p>Sarraf (صرّاف) is a currency converter for iPhone, iPad, Apple Watch and Mac.</p>
+<div class="contact">
+<p>For a problem or a suggestion: <a href="https://github.com/7mdalajmi/sarraf/issues/new">open a request on GitHub</a></p>
+<p class="muted">Mention your device and its OS version, the currencies or country concerned, with a screenshot if you can.</p>
+</div>
+
+<h2>Frequently asked</h2>
+<details><summary>How often are the rates updated?</summary>
+<p>Once a day. Offline, the app keeps working on the last saved rates and says so under its name, for example "Yesterday's rates · offline". Rates are by ExchangeRate-API and are for information, not dealing rates.</p></details>
+<details><summary>How does the app know I am travelling?</summary>
+<p>From your device's time zone, without the location permission. When it is outside your home country, the country you are in comes first and your home below it. Change your home in Settings › Home country.</p></details>
+<details><summary>"Scan prices" is missing or does not work</summary>
+<p>It needs an iPhone or iPad whose camera can read text, and asks for the camera the first time. If you declined, you can allow it in Settings. On a Mac the button is not shown.</p></details>
+<details><summary>What is the tax refund line?</summary>
+<p>When you travel in France, the UAE, Saudi Arabia, Japan, Thailand or Türkiye, an estimate under the amount shows how much tax comes back to you and how much more you need to reach the minimum. It is an estimate for eligible goods; the final amount depends on the shop's invoice and customs.</p></details>
+<details><summary>How do I change the language or the look?</summary>
+<p>In Settings: Arabic or English, and the dark Noir or the light Ivory. The widgets and the watch follow your choice.</p></details>
+<details><summary>Widgets and the Apple Watch app</summary>
+<p>Touch and hold the Home Screen, tap Edit, then Add Widget, and choose Sarraf: "Sarraf Calculator" (medium or large) has a keypad that works inside the widget itself, and the Lock Screen has "Calculator amount". The watch app has a keypad and the same currencies.</p></details>
+
+<p class="muted">Privacy: the app collects no data. <a href="privacy.html#en">Privacy policy</a></p>
+</section>
+
+<footer>© 2026 Hamad Alajmi</footer>
+</main>
+</body>
+</html>
